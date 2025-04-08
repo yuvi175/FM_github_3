@@ -10,6 +10,6 @@ def count_low(item_list):
 # Testing
 test_list = [1, 3, 5, 12, 15, 8, 2]
 number_low = count_low(test_list)
-report = "Found " + count_low + " items less than 10."
+report = "Found " + str(number_low) + " items less than 10." 
 
 print(report)
